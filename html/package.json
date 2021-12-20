@@ -1,0 +1,24 @@
+{
+ "name": "html",
+ "version": "1.0.0",
+ "description": "",
+ "main": "pages/index.html",
+ "files_to_build": "./pages/index.html",
+ "scripts": {
+  "dev": "parcel  $npm_package_files_to_build  --hmr-port 2345 --no-hmr",
+  "build": "rm -rf ./public && parcel build $npm_package_files_to_build --out-dir ./public --no-source-maps"
+ },
+ "author": "",
+ "license": "ISC",
+ "staticFiles": {
+  "staticPath": [
+   "./sitemap.xml"
+  ]
+ },
+ "browserslist": [
+  "since 2017-06"
+ ],
+ "devDependencies": {
+  "posthtml-include": "^1.7.2"
+ }
+}

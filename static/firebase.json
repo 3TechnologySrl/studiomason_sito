@@ -5,6 +5,13 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+	"headers": [ {
+		"source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css|md|html|png|json|svg)",
+		"headers": [ {
+		  "key": "Access-Control-Allow-Origin",
+		  "value": "*"
+		} ]
+	  } ]	
   }
 }
