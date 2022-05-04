@@ -187,7 +187,7 @@ html #header .header-logo.custom-header-logo:before {
 	left: 40px;
 	width: 170px;
 	height: 350px;
-	background-color: #26bd7e;
+	background-color: #E04622;
 	opacity: 1;
 	visibility: visible;
 	transform: rotate(45deg);
@@ -624,4 +624,8 @@ html:not(.sticky-header-active) #header.header-semi-transparent-light .header-bo
 */
 #footer {
 	background: #f4f4f4;
+}
+
+.REMOVE-BEFORE-FLIGHT * {
+	border: 1px dotted black;
 }
