@@ -627,6 +627,9 @@ html:not(.sticky-header-active) #header.header-semi-transparent-light .header-bo
 }
 
 
+
+/* Custom CSS da inserire correttamente*/
+
 .REMOVE-BEFORE-FLIGHT * {
 	border: 1px dotted black;
 }
@@ -637,4 +640,9 @@ html #header .header-logo.custom-header-logo > .logo{
 
 html #header .header-body {
 	border-bottom: 2px solid #cccccc !important;
+}
+
+#footer {
+	background: #f4f4f4;
+	border-top: 2px solid #cccccc !important;
 }
