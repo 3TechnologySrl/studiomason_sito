@@ -226,7 +226,7 @@ html #header .header-nav-features:after {
 }
 
 html.sticky-header-active #header .header-body {
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 	transform: translate3d(0, 0, 0);
 }
 
@@ -626,6 +626,15 @@ html:not(.sticky-header-active) #header.header-semi-transparent-light .header-bo
 	background: #f4f4f4;
 }
 
+
 .REMOVE-BEFORE-FLIGHT * {
 	border: 1px dotted black;
+}
+
+html #header .header-logo.custom-header-logo > .logo{
+	margin-left: 30px;
+}
+
+html #header .header-body {
+	border-bottom: 2px solid #cccccc !important;
 }

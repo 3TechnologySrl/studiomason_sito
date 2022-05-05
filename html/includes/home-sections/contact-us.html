@@ -1,0 +1,91 @@
+<div class="container pt-4 pb-5 pb-sm-0 my-5">
+    <div class="row pb-2 mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="400">
+            <div class="row">
+
+                <div class="col-auto">
+                    <h3 class="d-block text-color-grey positive-ls-3 font-weight-medium text-2 mb-1">Telefono</h3>
+                    <a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5">
+                        <img width="23" height="23" src="https://studiomason-sito-static.web.app/img/demos/construction/icons/icon-placeholder.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark me-2'}" />
+                        0432 993071
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <h3 class="d-block text-color-grey positive-ls-3 font-weight-medium text-2 mb-1">E-Mail</h3>
+                    <a href="mailto:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5">
+                        <img width="23" height="23" src="https://studiomason-sito-static.web.app/img/demos/construction/icons/icon-placeholder.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark me-2'}" />
+                        studiotecnicomason@gmail.com
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
+            <h3 class="d-block text-color-grey positive-ls-3 font-weight-medium text-2 mb-1">Sede dello Studio</h3>
+            <span class="d-flex align-items-center text-color-dark font-weight-bold text-3-5">
+                <img width="23" height="23" src="https://studiomason-sito-static.web.app/img/demos/construction/icons/icon-placeholder.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark me-2'}" />
+                Via Roma, 73/A - Gonars 33050 (UD)
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
+            <h2 class="font-weight-bold text-color-dark text-6 mb-0">Contattaci</h2>
+            <p class="text-3-5 font-weight-light mb-5-5">Facci sapere come possiamo esserti d'aiuto</p>
+            <form class="contact-form form-style-3" action="php/contact-form.php" method="POST">
+                <div class="contact-form-success alert alert-success d-none mt-4">
+                    <strong>Grazie!</strong> Abbiamo correttamente ricavuto il tuo messaggio
+                </div>
+
+                <div class="contact-form-error alert alert-danger d-none mt-4">
+                    <strong>Ops!</strong> Abbiamo riscontrato un errore durante l'invio del tuo messaggio
+                    <span class="mail-error-message text-1 d-block"></span>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col mb-3-5">
+                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control text-3 h-auto py-3-5" name="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col mb-3-5">
+                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-3-5" name="email" placeholder="Your E-mail Address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col mb-3-5">
+                        <input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control text-3 h-auto py-3-5" name="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col mb-3-5">
+                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control text-3 h-auto py-3-5" name="message" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <button type="submit" class="custom-view-more d-inline-flex align-items-center btn btn-primary font-weight-semibold rounded-0 text-3-5 btn-px-4 btn-py-2" data-loading-text="Loading...">
+                            Invia Messaggio
+                            <img width="27" height="27" src="https://studiomason-sito-static.web.app/img/demos/construction/icons/icon-placeholder.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light ms-2'}" />
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="400">
+            <h2 class="font-weight-bold text-color-dark text-6 mb-0">Dove siamo</h2>
+            <p class="text-3-5 font-weight-light mb-5-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div id="googlemaps" class="google-map m-0" style="min-height: 450px;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="position-relative pb-5 d-none d-xl-block">
+    <div class="position-absolute transform3dy-n50 left-0">
+        <div class="appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-appear-animation-duration="500ms">
+            <div class="custom-square-1 bg-primary mt-0 mb-5"></div>
+        </div>
+    </div>
+</div>
+
+</div>
