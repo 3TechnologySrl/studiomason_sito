@@ -2,7 +2,7 @@
  "name": "html",
  "version": "1.0.0",
  "description": "",
- "main": "pages/index.html",
+ "main": "index.js",
  "files_to_build": "./pages/index.html",
  "scripts": {
   "dev": "parcel  $npm_package_files_to_build  --hmr-port 2345 --no-hmr",
