@@ -638,6 +638,11 @@ html #header .header-logo.custom-header-logo > .logo{
 	margin-left: 30px;
 }
 
+html #header .header-logo.custom-header-logo:before
+{
+	filter: drop-shadow(3px -6px 2px rgba(0,0,0, 0.4));
+}
+
 html #header .header-body {
 	border-bottom: 2px solid #cccccc !important;
 }
