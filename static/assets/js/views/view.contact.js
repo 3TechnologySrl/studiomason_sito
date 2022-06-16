@@ -85,7 +85,7 @@ Theme Version:	9.3.0
 
 					$errorMessage.empty().hide();
 
-					if (data.response == 'success') {
+					if (data.textStatus == 'success') {
 
 						// Uncomment the code below to redirect for a thank you page
 						// self.location = 'thank-you.html';
