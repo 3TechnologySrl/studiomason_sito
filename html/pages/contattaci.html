@@ -203,6 +203,7 @@
 				mapRef.mapTypes.set('map_style', styledMap);
 				mapRef.setMapTypeId('map_style');
 			}
+			initializeGoogleMaps();
 
 			// Initialize Google Maps when element enter on browser view
 			theme.fn.intObs( '.google-map', 'initializeGoogleMaps()', {} );
