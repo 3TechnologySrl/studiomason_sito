@@ -651,3 +651,18 @@ html #header .header-body {
 	background: #f4f4f4;
 	border-top: 2px solid #cccccc !important;
 }
+
+html.mobile {
+	section.homepage-intro {
+		padding: 30px 30px 0 30px !important;
+		margin: unset !important;
+
+		h2 {
+			text-align: center;
+		}
+	}
+	section.section {
+		padding: 0px 30px 0 30px !important;
+		margin: unset !important;
+	}
+}
