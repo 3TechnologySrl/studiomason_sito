@@ -1,5 +1,5 @@
 import axios from 'axios'
-//import GDPRModule from "@3technologysrl/front-gdpr"
+import GDPRModule from "@3technologysrl/front-gdpr"
 //import CtvLegalDialog from '@3technologysrl/front-gdpr/lit/legal-dialog'
 
 window.addEventListener('DOMContentLoaded', () => {
