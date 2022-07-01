@@ -1,5 +1,6 @@
 import axios from 'axios'
-import GDPRModule from "@3technologysrl/front-gdpr"
+//import GDPRModule from "@3technologysrl/front-gdpr"
+//import CtvLegalDialog from '@3technologysrl/front-gdpr/lit/legal-dialog'
 
 window.addEventListener('DOMContentLoaded', () => {
     console.log("main loaded!");
@@ -77,4 +78,24 @@ window.addEventListener('DOMContentLoaded', () => {
             console.log(Ex)
         }
     })
+
+    document.querySelectorAll(".CookiePolicy").forEach((el) => el.onclick = (evt) => {
+        evt.preventDefault();
+        CtvLegalDialog.ShowCookies(
+            {
+            url:"https://cdnstatic.studio-mason.it/legal/cookies.md",
+            isMarkdown:true
+            }
+        )        
+    })
+    document.querySelectorAll(".PrivacyPolicy").forEach((el) => el.onclick = (evt) => {
+        evt.preventDefault();
+        CtvLegalDialog.ShowPrivacy(
+            {
+                url:"https://cdnstatic.studio-mason.it/legal/privacy.md",
+                isMarkdown:true
+             }
+        )
+    })
+
 });

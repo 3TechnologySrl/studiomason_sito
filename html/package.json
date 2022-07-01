@@ -27,6 +27,7 @@
  },
  "dependencies": {
   "@3technologysrl/front-gdpr": "^1.2.4",
+  "@camtv/front-base-ui": "^1.7.71",
   "axios": "^0.27.2",
   "parcel-bundler": "^1.12.5"
  }
