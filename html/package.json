@@ -26,6 +26,7 @@
   "sass": "^1.45.0"
  },
  "dependencies": {
+  "@3technologysrl/front-gdpr": "^1.2.4",
   "axios": "^0.27.2",
   "parcel-bundler": "^1.12.5"
  }
