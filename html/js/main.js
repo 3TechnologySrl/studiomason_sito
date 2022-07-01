@@ -1,7 +1,6 @@
 import axios from 'axios'
 import GDPRModule from "@3technologysrl/front-gdpr"
 
-
 window.addEventListener('DOMContentLoaded', () => {
     console.log("main loaded!");
 
